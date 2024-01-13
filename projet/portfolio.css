@@ -1,0 +1,50 @@
+/* Style de la section de projets */
+.project-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f4f4f4;
+}
+
+/* Style du titre de la section */
+.project-section h1 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+/* Style des projets individuels */
+.project {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+}
+
+/* Style du titre du projet */
+.project h4 {
+    color: #3498db;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Style de la description du projet */
+.project .description {
+    color: #555;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+/* Style des dates du projet */
+.project .dates {
+    color: #777;
+    font-size: 1em;
+}
+
+/* Style des projets au survol */
+.project:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+}
